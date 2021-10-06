@@ -1,0 +1,59 @@
+{
+  "name": "elecV2P 重写订阅",
+  "author": "留个名字 elecV2",
+  "note": "xx 导出的重写规则。该订阅目前仅适用于 elecV2P。更多说明请查看: https://github.com/elecV2/elecV2P-dei/tree/master/docs/05-rewrite.md",
+  "date": "2021-10-06 18:35:37",
+  "mitmhost": [],
+  "rewrite": [
+    {
+      "match": "https://ant.xunsl.com/v5/article/info.json",
+      "target": "jcwz.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/user/stay.json",
+      "target": "jcwz.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/article/detail.json",
+      "target": "jcwz.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/nameless/adlickstart.json",
+      "target": "jckkz.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward.json",
+      "target": "jcqd.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward.json",
+      "target": "jcbox.js",
+      "enable": false
+    },
+    {
+      "match": "https://ant.xunsl.com/v17/NewTask/getTaskList.json",
+      "target": "jc_today_score.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v17/NewTask/getTaskList.json",
+      "target": "jc_share.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/wechat/withdraw2.json",
+      "target": "jc_withdraw.js",
+      "enable": true
+    },
+    {
+      "match": "http://user.gaoqingdianshi.com/api/v3/user/info",
+      "target": "dsj.js",
+      "enable": true
+    }
+  ]
+}
